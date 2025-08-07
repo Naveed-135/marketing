@@ -9,6 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -37,10 +39,10 @@
 
     <!-- Hero section -->
     <section class="hero-section">
-        <div class="container">
+        <div class="container hero-container">
             <div class="hero-content ">
                 <h1 class="hero-title">
-                    <span class="text-primary">Cutting-edge</span>
+                   Cutting-edge
                     <span class="text-accent">Marketing Software</span>
                     Tailored for Your Business Needs
                 </h1>
@@ -50,15 +52,16 @@
                     with tools designed to boost conversions.
                 </p>
                 <div class="hero-cta">
-                    <a href="#" class="get-started-btn">Get Started →</a>
+                    <a href="#" class="get-started-btn">Get Started <i class="fas fa-arrow-right"></i></a>
                     <a href="#" class="contact-btn">Contact Us</a>
                 </div>
                 <div class="social-proof">
                     <div class="user-avatars">
-                        <img src="images/avatar-1.jpg" alt="User" class="avatar">
-                        <img src="images/avatar-2.jpg" alt="User" class="avatar">
-                        <img src="images/avatar-3.jpg" alt="User" class="avatar">
-                        <img src="images/avatar-4.jpg" alt="User" class="avatar">
+                        <img src="images/avtar1.svg" alt="User" class="avatar">
+                        <img src="images/avtar2.svg" alt="User" class="avatar">
+                        <img src="images/avtar3.svg" alt="User" class="avatar">
+                        <img src="images/avtar4.svg" alt="User" class="avatar">
+                        <img src="images/avtar5.svg" alt="User" class="avatar">
                     </div>
                     <div class="stats">
                         <h3>23,000</h3>
@@ -81,62 +84,47 @@
         <div class="features-grid">
             <!-- Feature 1 -->
             <div class="feature-card">
-                <div class="feature-icon red">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z"
-                            fill="currentColor" />
-                    </svg>
-                </div>
+              <img src="images/feature4.svg" alt="" class="feature-icon">
+              <div>
                 <h3>Bulk WhatsApp Messaging</h3>
                 <p>Reach thousands of customers instantly with our bulk WhatsApp messaging tool.</p>
+            </div>
             </div>
 
             <!-- Feature 2 -->
             <div class="feature-card">
-                <div class="feature-icon blue">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path
-                            d="M19 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.89 21 5 21H19C20.11 21 21 20.1 21 19V5C21 3.9 20.11 3 19 3ZM17 13H13V17H11V13H7V11H11V7H13V11H17V13Z"
-                            fill="currentColor" />
-                    </svg>
-                </div>
+                <img src="images/feature3.svg" alt="" class="feature-icon">
+                <div>
                 <h3>Smart Automation Workflows</h3>
                 <p>Automate your campaigns based on user behavior, time triggers, or custom actions.</p>
+            </div>
             </div>
 
             <!-- Feature 3 -->
             <div class="feature-card">
-                <div class="feature-icon green">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path
-                            d="M19 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.89 21 5 21H19C20.11 21 21 20.1 21 19V5C21 3.9 20.11 3 19 3ZM17 13H7V11H17V13Z"
-                            fill="currentColor" />
-                    </svg>
-                </div>
+                <img src="images/feature2.svg" alt="" class="feature-icon">
+                <div>
                 <h3>Schedule Campaigns in Advance</h3>
                 <p>Set your send date and time, sit back, and watch your messages roll out exactly when your audience is
                     most active.</p>
             </div>
-
+            </div>
             <!-- Feature 4 -->
             <div class="feature-card">
-                <div class="feature-icon yellow">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path
-                            d="M19 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.89 21 5 21H19C20.11 21 21 20.1 21 19V5C21 3.9 20.11 3 19 3ZM17 17H7V15H17V17ZM17 13H7V11H17V13ZM17 9H7V7H17V9Z"
-                            fill="currentColor" />
-                    </svg>
-                </div>
+                <img src="images/feature1.svg" alt="" class="feature-icon">
+                <div>
                 <h3>In-Depth Performance Reports</h3>
                 <p>Track open rates, clicks, conversions, and more with our real-time analytics dashboard.</p>
             </div>
+                </div>
         </div>
         </div>
     </section>
     <!-- communication hub -->
-    <section class="communication-hub">
+    <section class="">
+        <div class="container communication-hub">
         <div class="hub-image">
-            <img src="images/communication-hub.svg" alt="Communication Hub Illustration" class="hub-illustration">
+            <img src="images/communication.png" alt="Communication Hub Illustration" class="hub-illustration">
         </div>
         <div class="hub-content">
             <h2 class="hub-title">
@@ -149,64 +137,55 @@
             </p>
             <a href="#" class="learn-more-btn">Learn More</a>
         </div>
-    </section>
-    <!-- campaign section -->
-    <section class="campaign-section">
-        <div class="campaign-content">
-            <h2 class="campaign-title">
-                Launch Campaigns in<br>
-                <span class="text-accent">3 Simple Steps</span>
-            </h2>
-            <p class="campaign-description">
-                Getting started is fast and easy. With just three simple steps—importing your contacts, building your
-                message, and sending your campaign—you can connect with your audience in no time.
-            </p>
         </div>
-        <div class="steps-container">
-            <!-- Step 1 -->
-            <div class="step-card">
-                <div class="step-icon blue">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path
-                            d="M19 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM17 13H13V17H11V13H7V11H11V7H13V11H17V13Z"
-                            fill="currentColor" />
-                    </svg>
-                    <span class="step-number">1</span>
+    </section>
+         <!-- campaign section -->
+    <section class="campaign-section">
+        <div class="container">
+            <div style="display: flex; align-items: flex-start; gap: 80px;">
+                <div class="campaign-content">
+                    <h2 class="campaign-title">
+                        Launch Campaigns in<br>
+                        <span class="text-accent">3 Simple Steps</span>
+                    </h2>
+                    <p class="campaign-description">
+                        Getting started is fast and easy. With just three simple steps—importing your contacts, building your
+                        message, and sending your campaign—you can connect with your audience in no time.
+                    </p>
                 </div>
-                <div class="step-content">
-                    <h3>Import Contacts</h3>
-                    <p>Upload or sync your contact list in seconds.</p>
-                </div>
-            </div>
+                <div class="steps-container">
+                    <!-- Step 1 -->
+                    <div class="step-card">
+                        <div class="step-icon blue">
+                            <span class="step-number">1</span>
+                        </div>
+                        <div class="step-content">
+                            <h3>Import Contacts</h3>
+                            <p>Upload or sync your contact list in seconds.</p>
+                        </div>
+                    </div>
 
-            <!-- Step 2 -->
-            <div class="step-card">
-                <div class="step-icon green">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z"
-                            fill="currentColor" />
-                    </svg>
-                    <span class="step-number">2</span>
-                </div>
-                <div class="step-content">
-                    <h3>Build Your Message</h3>
-                    <p>Use our editor to create eye-catching emails or WhatsApp messages.</p>
-                </div>
-            </div>
+                    <!-- Step 2 -->
+                    <div class="step-card">
+                        <div class="step-icon green">
+                            <span class="step-number">2</span>
+                        </div>
+                        <div class="step-content">
+                            <h3>Build Your Message</h3>
+                            <p>Use our editor to create eye-catching emails or WhatsApp messages.</p>
+                        </div>
+                    </div>
 
-            <!-- Step 3 -->
-            <div class="step-card">
-                <div class="step-icon yellow">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path
-                            d="M19 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM17 17H7V15H17V17ZM17 13H7V11H17V13ZM17 9H7V7H17V9Z"
-                            fill="currentColor" />
-                    </svg>
-                    <span class="step-number">3</span>
-                </div>
-                <div class="step-content">
-                    <h3>Send & Track</h3>
-                    <p>Launch your campaign and track results in real-time.</p>
+                    <!-- Step 3 -->
+                    <div class="step-card">
+                        <div class="step-icon yellow">
+                            <span class="step-number">3</span>
+                        </div>
+                        <div class="step-content">
+                            <h3>Send & Track</h3>
+                            <p>Launch your campaign and track results in real-time.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
